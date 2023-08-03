@@ -1,14 +1,15 @@
 .section1{
-    background-color: black;
     background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/5eab1b22-c5ea-48b0-8ef4-862b3fa6df2c/4af43238-4df9-4946-9920-a4bd55f2e50b/IN-en-20230724-popsignuptwoweeks-perspective_alpha_website_large.jpg);
-    /* box-shadow: inset 0 0 50% black;     */
-    padding: 40px 200px;
+
+    
     
 }
 .header{
     display: flex;
+    /* flex-direction: row; */
     justify-content: space-between;
-
+    /* flex-wrap: wrap; */
+    padding: 40px 200px;
 }
 .netflix{
     color: red;
@@ -19,41 +20,54 @@
 .language, .signin {
     width: 90px;
     height: 30px;
+    color: white;
+    border-radius: 5px;
 }
 .language {
     background-color: transparent;
-    color: white;
-    border-radius: 5px;
     font-size: medium;
     border-style: inset;
 }
 .signin{
     background-color: red;
-    color: white;
-    border-radius: 5px;
+    
     border-style: hidden;
     font-size: medium;
     font-weight: bold;
 }
-
+.details, .paragraph, .section2, .questions{
+    font-family:  Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;;
+}
 .details {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
     color: white;
     align-items: center;
     padding: 180px 0;
 }
+.paragraph{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
 .line1{
-    font-size: 45px;
-    font-weight: bold;
-    margin: auto;
+    color: white;
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bolder;
+    /* display: block; */
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
 }
 .line2 {
     font-size: 25px;
     font-weight: normal;
     margin: 10px 0;
+    color: white;
 }
 input{
     width: 350px;
@@ -64,11 +78,64 @@ input{
 }
 .getstarted{
     width: 230ox;
-    height: 50px;
+    height: 54px;
     background-color: red;
     color: white;
     border-radius: 5px;
     border-style: hidden;
     font-size: larger;
     font-weight: bold;
+}
+.section2{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    padding:0 200px;
+    height: 500px;
+    width: auto;
+}
+.second-details{
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    
+
+}
+.questions{
+    display: flex;
+    flex-direction: column;
+    
+}
+.defult{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 10px;
+    font-size: 20px;
+    max-width: inherit;
+    height: 70px;
+    background-color: rgb(35, 35, 35);
+    border: hidden;
+    box-sizing: content-box;
+    text-align: left;
+    color: white;
+    margin: 10px 200px;
+}
+.last{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+
+
+
+/* video {
+    display: inline-block;
+    vertical-align: baseline;
+    object-fit: contain;
+    overflow-clip-margin: content-box;
+    overflow: clip;
 }
