@@ -1,6 +1,9 @@
+
+*{
+    margin: 0;
+}
 .section1{
     background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/5eab1b22-c5ea-48b0-8ef4-862b3fa6df2c/4af43238-4df9-4946-9920-a4bd55f2e50b/IN-en-20230724-popsignuptwoweeks-perspective_alpha_website_large.jpg);
-
     
     
 }
@@ -8,14 +11,12 @@
     display: flex;
     /* flex-direction: row; */
     justify-content: space-between;
-    /* flex-wrap: wrap; */
     padding: 40px 200px;
 }
 .netflix{
     color: red;
     font-size: 50px;
     font-weight: bolder;
-
 }
 .language, .signin {
     width: 90px;
@@ -29,13 +30,16 @@
     border-style: inset;
 }
 .signin{
+    /* width: 90px;
+    height: 30px; */
+    padding: 6px 24px;
     background-color: red;
-    
+    text-decoration: none;
     border-style: hidden;
     font-size: medium;
-    font-weight: bold;
+    font-weight: 600;
 }
-.details, .paragraph, .section2, .questions{
+.details, .paragraph, .section2, .questions , .signin{
     font-family:  Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;;
 }
 .details {
@@ -54,7 +58,7 @@
 .line1{
     color: white;
     margin: 0;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: bolder;
     /* display: block; */
     margin-block-start: 0.67em;
@@ -77,13 +81,13 @@ input{
     border-radius: 5px;
 }
 .getstarted{
-    width: 230ox;
+    width: 200px;
     height: 54px;
     background-color: red;
     color: white;
     border-radius: 5px;
     border-style: hidden;
-    font-size: larger;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 .section2{
@@ -105,7 +109,7 @@ input{
 .questions{
     display: flex;
     flex-direction: column;
-    
+    margin-bottom: 20px;
 }
 .defult{
     display: flex;
@@ -127,6 +131,7 @@ input{
     justify-content: center;
     align-items: center;
     gap: 6px;
+    margin: 10px 0 50px;
 }
 
 
