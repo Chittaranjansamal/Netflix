@@ -4,7 +4,7 @@
 }
 .section1, .frontpage{
     background-image: url(img/IN-en-20230724-popsignuptwoweeks-perspective_alpha_website_e.jpg);
-    
+    background-size: cover;
 }
 .box1 {
     
@@ -25,7 +25,8 @@
     font-weight: bolder;
 }
 .language, .signin {
-    width: 90px;
+    width: fit-content;
+    min-width: 90px;
     height: 30px;
     color: white;
     border-radius: 5px;
@@ -34,6 +35,7 @@
     background-color: transparent;
     font-size: medium;
     border-style: inset;
+    border-color: white;
 }
 .signin{
     /* width: 90px;
@@ -83,8 +85,11 @@ input{
     width: 350px;
     height: 50px;
     color: white;
-    background-color: transparent;
+    background-color: rgb(35, 35, 35,0.3);
     border-radius: 5px;
+    border-color: #b3b3b3;
+    border-width: 1px;
+    padding: 3px 10px;
 }
 .getstarted{
     width: 200px;
@@ -95,6 +100,23 @@ input{
     border-style: hidden;
     font-size: 1.5rem;
     font-weight: bold;
+}
+.video1{
+    position: absolute;
+    right: 251px;
+    
+    
+}
+.video2{
+    position: absolute;
+    right: 280px;
+}
+.tvimg {
+    position: relative;
+    z-index: 1;
+    width: 400px;
+    height: 300px;
+
 }
 .section2{
     display: flex;
@@ -175,7 +197,7 @@ input{
     font-weight: 700;
 }
 #inputmail{
-    background-color: rgb(192,192,192,0.5);
+    background-color: rgb(61, 59, 59);
     border: none;
 
 }
@@ -198,7 +220,7 @@ h3{
 }
 .lastline1{
     color: #b3b3b3;
-    margin-left:50px ;
+    margin-left:40px ;
 }
 .lastline1 a{
     color: blue;
