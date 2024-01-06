@@ -1,0 +1,44 @@
+*{
+    
+    margin: 0;
+}
+.header{
+    display: flex;
+    color: white;
+    padding: 20px 30px;
+    justify-content: space-between;
+    background-color: black;
+}
+.chillflix{
+    color: red;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+    text-decoration: none;
+
+}
+.stranger{
+    background-color: black;
+    color: white;
+    padding: 0 50px;
+    display: inline-block;
+}
+.description{
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+}
+img{
+    position: absolute;
+    
+    height: 500px;
+    right: 50px;
+    bottom: 120px;
+}
