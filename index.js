@@ -1,5 +1,5 @@
-let inputMail = document.getElementById("inputmail").innerText;
-let inputPassword = document.getElementById("inputpassword").innerText ;
+let inputMail = document.getElementById("inputmail");
+let inputPassword = document.getElementById("inputpassword") ;
 console.log(inputPassword);
 console.log(inputMail);
 
